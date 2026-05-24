@@ -1,7 +1,7 @@
 # One Shot Your MVPs
 Agent skills I use to build full-stack applications that deliver value from day 1 when time constraints are tight and requirements are ambiguous.
 
-Writing code is trivial. Shipping a full-stack MVP *correctly* when you have one day is unforgiving. You don't have cycles to iterate on features that miss the mark. These skills front-load the product and domain work so you can smoothly hand off your plan to agents and build the right thing on the first pass with product taste, technical execution, and time management all in sync.
+Writing code is trivial. Shipping a full-stack MVP *correctly* when you have one day is unforgiving. You don't have cycles to iterate on features that miss the mark. These skills front-load the product and domain work so you can smoothly hand off your plan to agents and build the right thing on the first pass with product taste, technical execution, and time management all in your control.
 
 One shotting an MVP isn't just about the day 1 milestone. It sets up for product-market-fit cleanly. Your codebase stays free of dead schemas and outdated context that accumulate through iteration. When you move to the next phase, you're building on a solid foundation instead of refactoring a prototype.
 
