@@ -28,7 +28,7 @@ One shotting an MVP isn't just about the day 1 milestone. It sets up for product
 ### Option A — skills.sh (recommended, works with Claude Code, Cursor, Codex)
 
 ```bash
-npx skills@latest add Matthew-Demoy/0To1EngineeringSkills
+npx skills@latest add Matthew-Demoy/0To1Skills
 ```
 
 Pick the skills you want and which agents to install them on.
@@ -36,8 +36,8 @@ Pick the skills you want and which agents to install them on.
 ### Option B — Manual (copy the folders)
 
 ```bash
-git clone https://github.com/Matthew-Demoy/0To1EngineeringSkills.git
-cp -R 0To1EngineeringSkills/skills/* ~/.claude/skills/
+git clone https://github.com/Matthew-Demoy/0To1Skills.git
+cp -R 0To1Skills/skills/* ~/.claude/skills/
 ```
 
 Then restart your agent so it picks up the new skills.
