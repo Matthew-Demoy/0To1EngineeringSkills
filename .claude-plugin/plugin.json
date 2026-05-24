@@ -1,0 +1,17 @@
+{
+  "name": "zero-to-one",
+  "description": "Zero-to-one product engineering workflow: turn a brief into product context, triage an unfamiliar domain, synthesize research into a PRD + ADR, and ship features with TDD.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matthew Demoy"
+  },
+  "skills": [
+    "./skills/brief-to-product-context",
+    "./skills/business-perspective",
+    "./skills/domain-knowledge-triage",
+    "./skills/signal-to-prd",
+    "./skills/tdd",
+    "./skills/to-issues",
+    "./skills/to-readme"
+  ]
+}

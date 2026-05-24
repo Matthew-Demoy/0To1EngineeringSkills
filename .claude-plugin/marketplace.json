@@ -10,8 +10,8 @@
   "plugins": [
     {
       "name": "zero-to-one",
-      "source": "./plugins/zero-to-one",
-      "description": "Zero-to-one product engineering workflow: brief-to-product-context, domain-knowledge-triage, signal-to-prd, tdd, to-prd, to-issues.",
+      "source": "./",
+      "description": "Zero-to-one product engineering workflow: brief-to-product-context, business-perspective, domain-knowledge-triage, signal-to-prd, tdd, to-issues, to-readme.",
       "version": "0.1.0"
     }
   ]

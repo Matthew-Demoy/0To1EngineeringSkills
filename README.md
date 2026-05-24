@@ -1,7 +1,7 @@
 # 0 To 1 Engineering Skills
+My agent skills that I use to build full stack applications that devliver value from day 1 when time constraints are tight and requirements are ambigous.
 
-A small collection of [Claude Code](https://claude.com/claude-code) agent skills
-for taking a product from **zero to one** — going from a raw brief to a shipped MVP when time is short and requirements are ambiguous.
+While writing code is trivial, Shipping a full-stack MVP *correctly* when you have one day is unforgiving. You don't have cycles to iterate on features that miss the mark. These skills front-load the product and domain work so you can smoothly hand off your plan to agents and build the right thing on the first pass with product taste, technical execution, and time management all in sync. 
 
 ## Skills
 
@@ -20,25 +20,22 @@ the MIT License — see [NOTICE](./NOTICE).
 
 ## Install
 
-### Option A — Plugin marketplace (recommended, supports updates)
+### Option A — skills.sh (recommended, works with Claude Code, Cursor, Codex)
 
-In Claude Code:
-
-```
-/plugin marketplace add Matthew-Demoy/0To1EngineeringSkills
-/plugin install zero-to-one@0to1-engineering-skills
+```bash
+npx skills@latest add Matthew-Demoy/0To1EngineeringSkills
 ```
 
-Pull updates later with `/plugin marketplace update 0to1-engineering-skills`.
+Pick the skills you want and which agents to install them on.
 
 ### Option B — Manual (copy the folders)
 
 ```bash
 git clone https://github.com/Matthew-Demoy/0To1EngineeringSkills.git
-cp -R 0To1EngineeringSkills/plugins/zero-to-one/skills/* ~/.claude/skills/
+cp -R 0To1EngineeringSkills/skills/* ~/.claude/skills/
 ```
 
-Then restart Claude Code so it picks up the new skills.
+Then restart your agent so it picks up the new skills.
 
 ## A note on `to-issues`
 
