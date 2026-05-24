@@ -6,7 +6,7 @@ for taking a product from **zero to one** — going from a raw brief to a shippe
 ## Skills
 
 | Skill | What it does | Why this is important |
-| --- | --- |
+| --- | --- | --- |
 | `brief-to-product-context` | Read an engineering brief and extract only the product/domain signal — who the user is, their workflow, their pain, the job-to-be-done. Outputs a product researcher's summary, not a tech spec. | As engineers (and our agents) our initial tendency is to immediatley solutioning. This leads to false start in design. By stripping out junk context about approach we can solve the problem as a true product person |
 | `business-perspective` | Trace a top-down chain from how a company makes money down to whatever is being built, so every metric on the page can be justified in business terms. | When building an MVP, every feature has weight and is an investment in critical time. You don't have cycles if your turnaround is one day. By taking a business perspective we ensure that the feature we build meets the needed business purpose directly. This is where UX designs go from cool feature to actual value |
 | `domain-knowledge-triage` | Given an unfamiliar domain, surface and sort its concepts, terms, and metrics into tiers so you know where to spend limited prep time. | I often find that most 0To1 oppurtunities are cross-functional, and are full of insititutional knowledge. This skills skips a few hours of personal research that is needed to ensure the MVP accuratley reflects the domain |
