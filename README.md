@@ -12,6 +12,7 @@ feature. Built around a take-home / new-project workflow.
 | `business-perspective` | Trace a top-down chain from how a company makes money down to whatever is being built, so every metric on the page can be justified in business terms. |
 | `domain-knowledge-triage` | Given an unfamiliar domain, surface and sort its concepts, terms, and metrics into tiers so you know where to spend limited prep time. |
 | `signal-to-prd` | Synthesize the session's research, notes, and interviews into a PRD plus a companion ADR — before any design or code. |
+| `to-readme` | Draft a reviewer-ready README from the design-product-notes, codebase, and deploy URLs. Emits screenshot placeholders plus a capture checklist for the human. |
 | `tdd` † | Test-driven development with a red-green-refactor loop and integration-style tests. |
 | `to-issues` † | Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. |
 
