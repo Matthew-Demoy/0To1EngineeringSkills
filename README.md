@@ -9,10 +9,10 @@ feature. Built around a take-home / new-project workflow.
 | Skill | What it does |
 | --- | --- |
 | `brief-to-product-context` | Read an engineering brief and extract only the product/domain signal — who the user is, their workflow, their pain, the job-to-be-done. Outputs a product researcher's summary, not a tech spec. |
+| `business-perspective` | Trace a top-down chain from how a company makes money down to whatever is being built, so every metric on the page can be justified in business terms. |
 | `domain-knowledge-triage` | Given an unfamiliar domain, surface and sort its concepts, terms, and metrics into tiers so you know where to spend limited prep time. |
 | `signal-to-prd` | Synthesize the session's research, notes, and interviews into a PRD plus a companion ADR — before any design or code. |
 | `tdd` † | Test-driven development with a red-green-refactor loop and integration-style tests. |
-| `to-prd` † | Turn the current conversation into a PRD and publish it to the project issue tracker. |
 | `to-issues` † | Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. |
 
 † Bundled from [Matt Pocock's skills](https://github.com/mattpocock/skills) under
@@ -40,12 +40,12 @@ cp -R 0To1EngineeringSkills/plugins/zero-to-one/skills/* ~/.claude/skills/
 
 Then restart Claude Code so it picks up the new skills.
 
-## A note on `to-prd` and `to-issues`
+## A note on `to-issues`
 
-Both expect a project issue tracker and a triage-label vocabulary to be set up.
-Without them `to-prd` degrades to producing a standalone PRD, and `to-issues`
-can't publish. See the upstream [mattpocock/skills](https://github.com/mattpocock/skills)
-repo for the companion setup skill.
+`to-issues` expects a project issue tracker and a triage-label vocabulary to be
+set up. Without them it can't publish. See the upstream
+[mattpocock/skills](https://github.com/mattpocock/skills) repo for the companion
+setup skill.
 
 ## License
 

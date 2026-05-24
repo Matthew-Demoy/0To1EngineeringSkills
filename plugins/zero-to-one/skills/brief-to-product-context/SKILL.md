@@ -7,7 +7,15 @@ description: Read a take-home engineering brief and extract only the product and
 
 Given a take-home engineering brief, extract only the product and domain signal. Output a concise document a product researcher would write — not a technical spec.
 
-## Output structure
+## Output Location
+
+1. Check the project's `CLAUDE.md` for a documented design-product-notes folder (e.g. a line like "design notes live in `<path>`").
+2. If found, write to `<that-folder>/brief-to-product-context.md`.
+3. If not, write to `docs/brief-to-product-context.md`. Create the directory if it doesn't exist.
+
+No numeric prefix. Overwrite the file if it already exists.
+
+## Output Structure
 
 **User Profile** — who is the primary user? Role, context, level of sophistication.
 

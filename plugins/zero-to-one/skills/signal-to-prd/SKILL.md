@@ -7,15 +7,27 @@ description: Synthesizes product signals, research, interviews, and notes gather
 
 Synthesize all context from this session — conversations, interviews, notes, documents — into a PRD and companion ADR. Do NOT interview the user. There is no codebase to explore. Drive the output autonomously from what you already know.
 
+Before drafting, read any upstream design-product-notes documents (brief, product context, business perspective, domain triage) — see **Output Location** for where they live — and incorporate their signal.
+
+## Output Location
+
+1. Check the project's `CLAUDE.md` for a documented design-product-notes folder (e.g. a line like "design notes live in `<path>`").
+2. If found, write to `<that-folder>/signal-to-prd.md` (PRD) and `<that-folder>/adr.md` (ADR).
+3. If not, write to `docs/signal-to-prd.md` and `docs/adr.md`. Create the directory if it doesn't exist.
+
+No numeric prefixes. Overwrite the files if they already exist.
+
+If the project has an issue tracker and a `ready-for-agent` triage label configured, also publish the PRD there. If no tracker is configured, the file is the source of truth.
+
 ## Process
 
 1. **Identify anchors** — extract key terms, domain concepts, and architectural decisions from the signals. These become ADR entries.
 
 2. **Sketch modules** — identify the major system areas to build. Look for deep modules: significant functionality behind a simple, stable, testable interface.
 
-3. **Write the PRD** — use the template below. Publish to the project issue tracker with the `ready-for-agent` triage label.
+3. **Write the PRD** — use the template below. Write the file per **Output Location**; publish to the issue tracker if one is configured.
 
-4. **Write the ADR** — publish as a separate document alongside the PRD. Cover domain vocabulary, naming conventions, and decisions that could be ambiguous between stakeholders.
+4. **Write the ADR** — write the file per **Output Location**. Cover domain vocabulary, naming conventions, and decisions that could be ambiguous between stakeholders.
 
 ## PRD Template
 

@@ -7,6 +7,14 @@ description: Given a domain or vertical, rapidly surfaces and sorts its concepts
 
 Given a domain or vertical, synthesize a tiered glossary from training knowledge and session context. Do NOT ask the user to explain the domain.
 
+## Output Location
+
+1. Check the project's `CLAUDE.md` for a documented design-product-notes folder (e.g. a line like "design notes live in `<path>`").
+2. If found, write to `<that-folder>/domain-knowledge-triage.md`.
+3. If not, write to `docs/domain-knowledge-triage.md`. Create the directory if it doesn't exist.
+
+No numeric prefix. Overwrite the file if it already exists.
+
 ## Process
 
 1. Identify the domain (from session context, a job description, take-home brief, or a named product area).
